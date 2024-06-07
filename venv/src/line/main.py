@@ -16,7 +16,7 @@ app = Flask(__name__)
 
 #環境変数取得
 YOUR_CHANNEL_ACCESS_TOKEN = os.environ["4o1KLyqRp1zEVR2WWP26Wu1oeYk76edvM0ozi3tLK5nquOOrVHrZLXKMyK1vFWfK/dvG9KOGPE/9g9+oXIPGWKiUe6TFAVdYZ6S+e8T+YINOXBy9bsrmlj4VE2mcgFXMeZywEpIfiAnweGhAkKuPPgdB04t89/1O/w1cDnyilFU="]
-YOUR_CHANNEL_SECRET = os.environ["YOUR_CHANNEL_SECRET"]
+YOUR_CHANNEL_SECRET = os.environ["6e946f62462792d5f537bf2d2e6dc952"]
 
 line_bot_api = LineBotApi(YOUR_CHANNEL_ACCESS_TOKEN)
 handler = WebhookHandler(YOUR_CHANNEL_SECRET)
