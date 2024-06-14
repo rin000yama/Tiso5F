@@ -12,5 +12,5 @@
 ngrokを用いてlinebotのとデータベースの簡単な動作確認 6/14
 
 ## 開発者
-rin000yama
+rin000yama  
 ogiek0628
